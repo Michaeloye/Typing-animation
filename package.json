@@ -1,0 +1,8 @@
+{
+  "name": "typing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Michaeloye/Typing-animation.git",
+  "author": "michaeloye <michaeloye23@gmail.com>",
+  "license": "MIT"
+}
