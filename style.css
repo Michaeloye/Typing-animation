@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+}
+.text-typing {
+  padding: 20px 30px;
+
+  font-size: 30px;
+  font-family: monospace;
+}
+.text-typing h1 {
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(18, end) forwards, blink 1s infinite;
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid #222;
+  }
+}
